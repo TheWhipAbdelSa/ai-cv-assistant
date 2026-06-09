@@ -1,0 +1,13 @@
+{
+  "name": "Abdel Sadaqi",
+  "education": "Bachelor i elektroingeniør - informatikk og automatisering",
+  "skills": [
+    "Python",
+    "SQL",
+    "TIA Portal",
+    "Ignition",
+    "FastAPI",
+    "SvelteKit"
+  ],
+  "Alder": "01.08.1989"
+}
