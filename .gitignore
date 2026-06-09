@@ -9,3 +9,9 @@ backend/__pycache__/
 frontend/node_modules/
 frontend/.svelte-kit/
 .vscode/
+backend/.env
+backend/__pycache__/
+*.pyc
+backend/venv/
+frontend/node_modules/
+frontend/.svelte-kit/
