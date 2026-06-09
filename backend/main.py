@@ -20,9 +20,6 @@ class ChatRequest(BaseModel):
 
 
 
-print("API KEY loaded:", bool(os.getenv("OPENAI_API_KEY")))
-
-
 #Reading JSON file-------------------------------------------------
 
 BASE_DIR = Path(__file__).resolve().parent
