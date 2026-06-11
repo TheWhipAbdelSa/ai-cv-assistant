@@ -71,4 +71,5 @@ jobs:
         with:
           app-name: 'abdel-ai-cv-assistant-api'
           slot-name: 'Production'
+          package: .
           
