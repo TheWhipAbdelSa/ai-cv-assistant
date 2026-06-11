@@ -1,17 +1,19 @@
-git add .gitignorebackend/.env
-backend/venv/
-frontend/node_modules/
-frontend/.svelte-kit/
+# Environment variables
 backend/.env
+
+# Python
 backend/venv/
 backend/__pycache__/
 *.pyc
+
+# Node / Svelte
 frontend/node_modules/
 frontend/.svelte-kit/
+frontend/build/
+
+# VS Code
 .vscode/
-backend/.env
-backend/__pycache__/
-*.pyc
-backend/venv/
-frontend/node_modules/
-frontend/.svelte-kit/
+
+# OS files
+.DS_Store
+Thumbs.db
