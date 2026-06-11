@@ -1,13 +1,226 @@
 {
   "name": "Abdel Sadaqi",
-  "education": "Bachelor i elektroingeniør - informatikk og automatisering",
-  "skills": [
-    "Python",
-    "SQL",
-    "TIA Portal",
-    "Ignition",
-    "FastAPI",
-    "SvelteKit"
+  "location": "Skien, Norge",
+  "phone": "+47 92 47 73 36",
+  "email": "abdel.sadaqi@hotmail.com",
+  "driving_license": "B",
+  "title": "Nyutdannet elektroingeniør – informatikk og automatisering",
+  "summary": "Nyutdannet elektroingeniør med bachelorgrad i informatikk og automatisering fra Universitetet i Sørøst-Norge. Interessert i automasjon, PLS-programmering, SCADA-systemer, industrielle styringssystemer, AI, databaser, IoT og programvareutvikling. Lærevillig, strukturert og motivert for å utvikle seg videre innen automasjon og industriell teknologi.",
+  "education": [
+    {
+      "degree": "Bachelor i elektroingeniør – Informatikk og automatisering",
+      "school": "Universitetet i Sørøst-Norge (USN)",
+      "period": "August 2021 – Juni 2024",
+      "focus_areas": [
+        "PLS",
+        "SCADA",
+        "IoT",
+        "Programmering",
+        "Systemutvikling",
+        "Databaser",
+        "Datakommunikasjon",
+        "Måleteknikk",
+        "Reguleringsteknikk"
+      ],
+      "technologies": [
+        "TIA Portal",
+        "Visual Studio 2022",
+        "Visual Studio Code",
+        "Svelte",
+        "Python",
+        "Erwin",
+        "SQL",
+        "Azure",
+        "GitHub"
+      ],
+      "thesis": {
+        "title": "KI-drevet spørsmål- og svarsystem",
+        "description": "Utviklet et KI-drevet spørsmål- og svarsystem som tolker naturlig språk og genererer SQL-spørringer for å hente informasjon fra et stort datalagringssystem."
+      }
+    }
   ],
-  "Alder": "01.08.1989"
+  "projects": [
+    {
+      "title": "AI-basert CV-assistent",
+      "description": "Fullstack-prosjekt med SvelteKit, FastAPI, OpenAI API og lokal profil-data. Målet er å lage en personlig AI-assistent som kan svare på spørsmål om utdanning, erfaring, prosjekter og tekniske ferdigheter.",
+      "technologies": [
+        "SvelteKit",
+        "FastAPI",
+        "OpenAI API",
+        "Python",
+        "JSON"
+      ],
+      "github": "https://github.com/TheWhipAbdelSa/ai-cv-assistant"
+    },
+    {
+      "title": "KI-drevet spørsmål- og svarplattform",
+      "description": "Løsning som tolker naturlig språk og genererer SQL-spørringer automatisk. Integrasjon mellom AI-modell og database. Reduserer behovet for manuelle søk og forhåndsdefinerte visninger.",
+      "technologies": [
+        "AI",
+        "SQL",
+        "Python",
+        "Database"
+      ]
+    },
+    {
+      "title": "IoT- og styringssystemer",
+      "description": "Arbeid med sanntidskontroll, sensorer og kommunikasjonssystemer.",
+      "technologies": [
+        "TIA Portal",
+        "Python",
+        "Microcontroller",
+        "IoT"
+      ]
+    },
+    {
+      "title": "ESP32- og Arduino-prosjekter",
+      "description": "Prosjekter med sensorintegrasjon, motorstyring, servoer og kommunikasjon mellom komponenter.",
+      "technologies": [
+        "ESP32",
+        "Arduino",
+        "Sensorer",
+        "Motorstyring",
+        "Servo"
+      ]
+    },
+    {
+      "title": "3D-design og prototyping",
+      "description": "Praktisk arbeid med CAD-design, prototyping og 3D-printing.",
+      "technologies": [
+        "FreeCAD",
+        "xDesign",
+        "Bambu Studio",
+        "3D-printing"
+      ]
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "ABC Rørteknikk AS",
+      "country": "Norge",
+      "role": "Operatør – Google datasenter",
+      "period": "Mai 2025 – Januar 2026",
+      "tasks": [
+        "Teknisk drift og vedlikeholdsarbeid",
+        "Rørinspeksjon og teknisk feilsøking",
+        "Arbeid i datasentermiljø med fokus på HMS og kvalitet"
+      ]
+    },
+    {
+      "company": "Viking Tak og Bygg AS",
+      "role": "Tømrer",
+      "period": "2024 – 2025",
+      "tasks": [
+        "Praktisk arbeid innen bygg og montering",
+        "Arbeid med kvalitet, struktur og samarbeid"
+      ]
+    },
+    {
+      "company": "Systemblokk AS",
+      "role": "Betongarbeider",
+      "period": "2017 – 2018",
+      "tasks": [
+        "Praktisk produksjonsarbeid",
+        "Arbeid med fysisk produksjon og samarbeid"
+      ]
+    },
+    {
+      "company": "Møbelsnekker",
+      "country": "Syria og Libanon",
+      "role": "Møbelsnekker",
+      "period": "2002 – 2015",
+      "tasks": [
+        "Møbelproduksjon",
+        "Praktisk håndverk",
+        "Kvalitetsarbeid og kundetilpasning"
+      ]
+    }
+  ],
+  "technical_skills": {
+    "programming": [
+      "Python",
+      "SQL",
+      "C#",
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "automation": [
+      "TIA Portal",
+      "PLS",
+      "SCADA",
+      "Ignition",
+      "IoT"
+    ],
+    "cad_design": [
+      "FreeCAD",
+      "xDesign",
+      "Bambu Studio",
+      "3D-printing"
+    ],
+    "tools": [
+      "GitHub",
+      "Azure",
+      "Visual Studio",
+      "VS Code"
+    ]
+  },
+  "languages": [
+    {
+      "language": "Norsk",
+      "level": "Flytende"
+    },
+    {
+      "language": "Engelsk",
+      "level": "Flytende"
+    },
+    {
+      "language": "Arabisk",
+      "level": "Morsmål"
+    }
+  ],
+  "interests": [
+    "Bilteknikk og teknisk feilsøking",
+    "Automatisering og programmering",
+    "Elektronikk og hobbyprosjekter",
+    "3D-design og 3D-printing"
+  ],
+  "job_goals": [
+    "Automasjonsingeniør",
+    "PLS-programmering",
+    "SCADA/HMI-systemer",
+    "Industriell automasjon",
+    "Teknisk systemutvikling",
+    "AI og databaser i industrielle løsninger"
+  ],
+  "personality": [
+    "Lærevillig",
+    "Strukturert",
+    "Praktisk orientert",
+    "Teknisk interessert",
+    "Motivert for å utvikle seg videre"
+  ],
+  "personal_traits": {
+    "strengths": [
+      "Lærevillig",
+      "Praktisk orientert",
+      "Løsningsorientert",
+      "Strukturert",
+      "Teknisk nysgjerrig",
+      "Motivert for utvikling"
+    ],
+    "work_style": [
+      "Liker å forstå hvordan systemer fungerer",
+      "Kombinerer praktisk erfaring med teknisk kunnskap",
+      "Jobber systematisk med problemløsning",
+      "Lærer best gjennom praktiske prosjekter"
+    ],
+    "values": [
+      "Kvalitet i arbeidet",
+      "Ærlighet",
+      "Kontinuerlig læring",
+      "Ansvar"
+    ]
+  }
 }

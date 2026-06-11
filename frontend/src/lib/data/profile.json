@@ -1,0 +1,68 @@
+{
+    "person": {
+        "name": "Abdel Sadaqi",
+        "title": "Elektroingeniør • Informatikk og automatisering",
+        "image": "background.jpeg"
+    },
+    "hero": {
+        "description": "AI-basert CV-assistent bygget med SvelteKit, FastAPI og OpenAI. Spør assistenten om utdanning, erfaring, prosjekter og tekniske ferdigheter.",
+        "skills": [
+            "SvelteKit",
+            "FastAPI",
+            "OpenAI",
+            "Python",
+            "SQL"
+        ]
+    },
+    "about": {
+        "text": "Jeg er elektroingeniør med bachelor i informatikk og automatisering fra Universitetet i Sørøst-Norge. Jeg interesserer meg spesielt for automatisering, programvareutvikling, industrielle systemer og AI."
+    },
+    "projects": [
+        {
+            "title": "AI-basert CV-assistent",
+            "description": "Personlig AI-assistent som svarer på spørsmål om utdanning, erfaring, prosjekter og ferdigheter basert på strukturert profil-data.",
+            "tags": [
+                "SvelteKit",
+                "FastAPI",
+                "OpenAI",
+                "Python"
+            ],
+            "link": "https://github.com/TheWhipAbdelSa/ai-cv-assistant"
+        }
+    ],
+    "experience": [
+        {
+            "period": "2025 – 2026",
+            "company": "ABC Rørteknikk AS",
+            "role": "Operatør – Google Datasenter",
+            "tasks": [
+                "Teknisk drift og vedlikeholdsarbeid",
+                "Rørinspeksjon og teknisk feilsøking",
+                "Arbeid i datasentermiljø med fokus på HMS og kvalitet"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "period": "August 2021 – Juni 2024",
+            "degree": "Bachelor i elektroingeniør – Informatikk og automatisering",
+            "school": "Universitetet i Sørøst-Norge (USN)",
+            "description": "Fokus på PLS, SCADA, IoT, programmering, systemutvikling, databaser, datakommunikasjon, måleteknikk og reguleringsteknikk.",
+            "thesis": "Utviklet et KI-drevet spørsmål- og svarsystem som tolker naturlig språk og genererer SQL-spørringer.",
+            "tags": [
+                "TIA Portal",
+                "SCADA",
+                "IoT",
+                "Python",
+                "SQL",
+                "C#"
+            ]
+        }
+    ],
+    "contact": {
+        "email": "abdel.sadaqi@hotmail.com",
+        "phone": "+4792477336",
+        "github": "https://github.com/TheWhipAbdelSa",
+        "linkedin": "https://www.linkedin.com/in/abdel-sadaqi-2674162b7"
+    }
+}
