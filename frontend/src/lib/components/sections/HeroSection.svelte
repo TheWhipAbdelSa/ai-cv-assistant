@@ -77,13 +77,6 @@
     object-fit: cover;
   }
 
-  .eyebrow {
-    font-size: 16px;
-    font-weight: 700;
-    color: #2563eb;
-    margin-bottom: 14px;
-  }
-
   h1 {
     font-size: 64px;
     margin: 0 0 18px;
