@@ -1,31 +1,44 @@
 <script>
   import backgroundImage from "$lib/images/background.jpeg";
+  import CvCard from "$lib/components/common/CvCard.svelte";
+  import BrandLogo from "$lib/components/common/BrandLogo.svelte";
 </script>
 
 <main>
+  <BrandLogo />
   <section class="hero">
     <div class="hero-content">
-      <p class="eyebrow">Elektroingeniør • Informatikk og automatisering</p>
-
       <h1>Abdel Sadaqi</h1>
 
       <p class="description">
-        AI-basert CV-assistent bygget med SvelteKit, FastAPI og OpenAI. Spør
-        assistenten om utdanning, erfaring, prosjekter og tekniske ferdigheter.
+        Nyutdannet elektroingeniør med bachelor i informatikk og automatisering.
+        Jeg har interesse for PLS-programmering, SCADA, industrielle
+        kontrollsystemer og softwareutvikling. Utforsk prosjektene mine eller
+        spør AI-assistenten om min erfaring og kompetanse.
       </p>
 
       <div class="actions">
         <a href="#projects">Se prosjekter</a>
+
         <a href="#contact" class="secondary">Kontakt</a>
       </div>
 
       <div class="skills">
+        <span>Siemens TIA Portal</span>
+        <span>PLC</span>
+        <span>SCADA</span>
+        <span>Ignition</span>
+        <span>Python</span>
+
+        <span>ESP32 / IoT</span>
         <span>SvelteKit</span>
         <span>FastAPI</span>
         <span>OpenAI</span>
-        <span>Python</span>
+
         <span>SQL</span>
+        <span>C#</span>
       </div>
+      <CvCard />
     </div>
     <div class="hero-image">
       <img src={backgroundImage} alt="Abdel Sadaqi" />
@@ -34,8 +47,11 @@
 </main>
 
 <style>
+  main {
+    padding-top: 40px;
+  }
   .hero {
-    min-height: 100vh;
+    min-height: calc(100vh - 220px);
     display: flex;
     align-items: center;
     justify-content: space-between;
