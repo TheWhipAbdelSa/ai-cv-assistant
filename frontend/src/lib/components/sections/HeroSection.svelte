@@ -1,6 +1,6 @@
 <script>
   import backgroundImage from "$lib/images/background.jpeg";
-  import CvCard from "$lib/components/common/CvCard.svelte";
+  import CvCard from "$lib/components/common/CVCard.svelte";
   import BrandLogo from "$lib/components/common/BrandLogo.svelte";
 </script>
 
