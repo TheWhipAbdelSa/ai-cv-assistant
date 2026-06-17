@@ -1,0 +1,17 @@
+<svg width="420" height="110" viewBox="0 0 420 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="110" rx="18" fill="white"/>
+
+  <g transform="translate(24 20)">
+    <rect width="70" height="70" rx="16" fill="#0F172A"/>
+    <path d="M35 10L60 60H48L43.5 51H26.5L22 60H10L35 10Z" fill="white"/>
+    <path d="M35 27L45 47H38.8L35 39.8L31.2 47H25L35 27Z" fill="#2563EB"/>
+  </g>
+
+  <text x="115" y="48" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#0F172A">
+    Abdel Sadaqi
+  </text>
+
+  <text x="117" y="75" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500" letter-spacing="2" fill="#64748B">
+    AUTOMASJON • SOFTWARE • AI
+  </text>
+</svg>
