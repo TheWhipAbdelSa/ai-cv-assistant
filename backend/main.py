@@ -6,15 +6,19 @@ from dotenv import load_dotenv
 from openai import OpenAI
 from pathlib import Path
 from fastapi.middleware.cors import CORSMiddleware
+try:
+    from .content import router as content_router, load_profile
+except ImportError:
+    from content import router as content_router, load_profile
 
 
 
 
 load_dotenv(override=True)
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 app = FastAPI()
+app.include_router(content_router)
 
 app.add_middleware(
     CORSMiddleware,
@@ -41,9 +45,6 @@ BASE_DIR = Path(__file__).resolve().parent
 PROFILE_PATH = BASE_DIR / "data" / "profile.json"
 
 
-def load_profile():
-    with open(PROFILE_PATH, "r", encoding="utf-8") as file:
-        return json.load(file)
 
 #-------------------------------------
 
@@ -123,6 +124,7 @@ Profil:
 {json.dumps(profile, ensure_ascii=False, indent=2)}
 """
 
+        client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             temperature=0.6,

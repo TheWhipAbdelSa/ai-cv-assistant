@@ -1,45 +1,20 @@
+<script>
+  let { experience = [] } = $props();
+</script>
 <section id="experience" class="section experience">
   <h2>Arbeidserfaring</h2>
-
   <div class="timeline">
-    <article class="timeline-item">
-      <div class="timeline-dot"></div>
-
-      <div class="timeline-content">
-        <span class="timeline-date">2025 – 2026.</span>
-        <h3>ABC Rørteknikk AS</h3>
-        <p>
-          Operatør ved Google Datasenter. Arbeid med teknisk drift,
-          rørinspeksjon, spyling og vedlikehold av tekniske systemer.
-        </p>
-      </div>
-    </article>
-
-    <article class="timeline-item">
-      <div class="timeline-dot"></div>
-
-      <div class="timeline-content">
-        <span class="timeline-date">2025</span>
-        <h3>Viking Tak og Bygg</h3>
-        <p>
-          Praktisk arbeid innen bygg og montering. Fokus på kvalitet, samarbeid
-          og strukturert gjennomføring.
-        </p>
-      </div>
-    </article>
-
-    <article class="timeline-item">
-      <div class="timeline-dot"></div>
-
-      <div class="timeline-content">
-        <span class="timeline-date">Tidligere</span>
-        <h3>Kjøkkenarbeid</h3>
-        <p>
-          Flere års erfaring fra kjøkkenarbeid i Libanon med høyt tempo,
-          kundeservice og samarbeid i team.
-        </p>
-      </div>
-    </article>
+    {#each experience as entry}
+      <article class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">{entry.period}</span>
+          <h3>{entry.company}</h3>
+          <p><strong>{entry.role}</strong>{entry.country ? ` · ${entry.country}` : ''}</p>
+          <ul>{#each entry.tasks as task}<li>{task}</li>{/each}</ul>
+        </div>
+      </article>
+    {/each}
   </div>
 </section>
 

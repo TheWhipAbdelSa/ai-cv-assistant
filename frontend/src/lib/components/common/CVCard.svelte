@@ -1,6 +1,10 @@
+<script>
+  import { apiBase } from '$lib/api';
+  let { cv = null } = $props();
+</script>
 <a
   class="cv-card"
-  href="/Abdel-Sadaqi-CV.pdf"
+  href={cv ? `${apiBase}/cv` : "/Abdel-Sadaqi-CV.pdf"}
   target="_blank"
   rel="noopener noreferrer"
 >
@@ -9,7 +13,7 @@
   <div class="cv-content">
     <h3>CV</h3>
     <p>Abdel Sadaqi</p>
-    <span>2 sider • PDF • Oppdatert juni 2026</span>
+    <span>PDF{cv ? ` • Oppdatert ${new Date(cv.updated_at).toLocaleDateString('nb-NO')}` : ''}</span>
 
     <div class="cv-download">⬇ Last ned CV</div>
   </div>

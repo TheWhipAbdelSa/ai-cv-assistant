@@ -1,0 +1,6 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/_app/*", "/*.pdf", "/*.svg", "/*.jpeg", "/robots.txt"]
+  }
+}

@@ -1,4 +1,5 @@
 <script>
+  let { cv = null } = $props();
   import backgroundImage from "$lib/images/background.jpeg";
   import CvCard from "$lib/components/common/CVCard.svelte";
   import BrandLogo from "$lib/components/common/BrandLogo.svelte";
@@ -38,7 +39,7 @@
         <span>SQL</span>
         <span>C#</span>
       </div>
-      <CvCard />
+      <CvCard {cv} />
     </div>
     <div class="hero-image">
       <img src={backgroundImage} alt="Abdel Sadaqi" />

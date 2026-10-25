@@ -5,7 +5,6 @@
   import ChatHeader from "./ChatHeader.svelte";
   import ChatInput from "./ChatInput.svelte";
   import ChatMessages from "./ChatMessages.svelte";
-  import { dev } from "$app/env";
 
   let { closeChat } = $props();
 
